@@ -1,0 +1,86 @@
+group 'seek'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+
+
+/** 此闭包内的声明子类皆可使用 */
+allprojects {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+    group = 'com.seek.soft.seek'
+    version = '0.1.0-SNAPSHOT'
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'eclipse'
+
+
+
+}
+
+
+repositories {
+    flatDir {
+        name 'localRepository'
+    }
+}
+repositories {
+    localRepository {
+        dirs 'lib'
+    }
+}
+repositories.localRepository {
+    dirs 'lib'
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+ext {
+    vertxVersion = '3.3.3'
+    junitVersion = '4.12'
+
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: "$junitVersion"
+}
+
+//删除父目录下的test，避免test task执行失败
+delete "${buildDir}/classes/test"
+
+
+//拷贝根目录下的所有test到各自子module下
+task "copytest" << {
+    def fromPath
+    def toPath
+    subprojects.each {
+        fromPath = "${project.buildDir}/classes/test/${it.name}"
+        toPath = "${it.buildDir}/classes/test"
+        copy {
+            from fromPath
+            into toPath
+        }
+
+    }
+}
+
+task createREADME() {
+    file("README.md").createNewFile()
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.2'
+}
+
+configurations.all {
+    // check for updates every build
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}

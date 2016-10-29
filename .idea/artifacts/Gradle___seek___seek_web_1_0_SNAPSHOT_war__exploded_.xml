@@ -1,0 +1,40 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : seek : seek-web-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/out/artifacts/seek-web/exploded/seek-web-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="seek-web_main/web/Web Gradle : seek-web-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="seek-web_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/seek-web/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: io.vertx:vertx-core:3.3.3" />
+          <element id="library" level="project" name="Gradle: io.vertx:vertx-web:3.3.3" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-common:4.1.5.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-buffer:4.1.5.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-transport:4.1.5.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-handler:4.1.5.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-handler-proxy:4.1.5.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-codec-http:4.1.5.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-codec-http2:4.1.5.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-resolver:4.1.5.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-resolver-dns:4.1.5.Final" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.7.4" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.7.4" />
+          <element id="library" level="project" name="Gradle: io.vertx:vertx-auth-common:3.3.3" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-codec:4.1.5.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-codec-socks:4.1.5.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-codec-dns:4.1.5.Final" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.7.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/seek-web/exploded/seek-web-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

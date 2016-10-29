@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="seek-dao_main" target="1.8" />
+      <module name="seek-dao_test" target="1.8" />
+      <module name="seek-domain_main" target="1.8" />
+      <module name="seek-domain_test" target="1.8" />
+      <module name="seek-service_main" target="1.8" />
+      <module name="seek-service_test" target="1.8" />
+      <module name="seek-web_main" target="1.8" />
+      <module name="seek-web_test" target="1.8" />
+      <module name="seek_main" target="1.8" />
+      <module name="seek_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,6 @@
+rootProject.name = 'seek'
+include 'seek-web'
+include 'seek-service'
+include 'seek-dao'
+include 'seek-domain'
+

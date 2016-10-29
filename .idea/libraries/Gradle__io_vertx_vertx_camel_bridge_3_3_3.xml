@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.vertx:vertx-camel-bridge:3.3.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-camel-bridge/3.3.3/bf7420fe762c6dd84fd62d1497ad256b78cef7a7/vertx-camel-bridge-3.3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-camel-bridge/3.3.3/873f4a5da75e583e9f429422b4f4e882f9c8ddb/vertx-camel-bridge-3.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

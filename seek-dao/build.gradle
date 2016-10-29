@@ -1,0 +1,19 @@
+group 'seek'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit',version:"$junitVersion"
+    compile "io.vertx:vertx-mongo-client:$vertxVersion"
+    compile "io.vertx:vertx-jdbc-client:$vertxVersion"
+    compile "io.vertx:vertx-sql-common:$vertxVersion"
+    compile "io.vertx:vertx-mysql-postgresql-client:$vertxVersion"
+
+}

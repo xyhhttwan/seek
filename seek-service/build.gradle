@@ -1,0 +1,25 @@
+group 'seek'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version:"$junitVersion"
+    compile "io.vertx:vertx-redis-client:$vertxVersion"
+    compile "io.vertx:vertx-tcp-eventbus-bridge:$vertxVersion"
+    compile "io.vertx:vertx-camel-bridge:$vertxVersion"
+    compile "io.vertx:vertx-rabbitmq-client:$vertxVersion"
+
+    compile project(':seek-domain')
+
+
+}
+

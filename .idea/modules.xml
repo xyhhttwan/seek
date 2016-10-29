@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seek.iml" filepath="$PROJECT_DIR$/.idea/modules/seek.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seek-dao/seek-dao.iml" filepath="$PROJECT_DIR$/.idea/modules/seek-dao/seek-dao.iml" group="seek-dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seek-dao/seek-dao_main.iml" filepath="$PROJECT_DIR$/.idea/modules/seek-dao/seek-dao_main.iml" group="seek-dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seek-dao/seek-dao_test.iml" filepath="$PROJECT_DIR$/.idea/modules/seek-dao/seek-dao_test.iml" group="seek-dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seek-domain/seek-domain.iml" filepath="$PROJECT_DIR$/.idea/modules/seek-domain/seek-domain.iml" group="seek-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seek-domain/seek-domain_main.iml" filepath="$PROJECT_DIR$/.idea/modules/seek-domain/seek-domain_main.iml" group="seek-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seek-domain/seek-domain_test.iml" filepath="$PROJECT_DIR$/.idea/modules/seek-domain/seek-domain_test.iml" group="seek-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seek-service/seek-service.iml" filepath="$PROJECT_DIR$/.idea/modules/seek-service/seek-service.iml" group="seek-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seek-service/seek-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/seek-service/seek-service_main.iml" group="seek-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seek-service/seek-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/seek-service/seek-service_test.iml" group="seek-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seek-web/seek-web.iml" filepath="$PROJECT_DIR$/.idea/modules/seek-web/seek-web.iml" group="seek-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seek-web/seek-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/seek-web/seek-web_main.iml" group="seek-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seek-web/seek-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/seek-web/seek-web_test.iml" group="seek-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seek_main.iml" filepath="$PROJECT_DIR$/.idea/modules/seek_main.iml" group="seek" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seek_test.iml" filepath="$PROJECT_DIR$/.idea/modules/seek_test.iml" group="seek" />
+    </modules>
+  </component>
+</project>
